@@ -1,7 +1,8 @@
 let school = {
   name: "이강호",
   schoolNumber: 2212,
-  major: "itContent"
+  major: "itContent",
+  age: 18
 }
 
 let info = Object.keys(school)
