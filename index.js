@@ -1,14 +1,10 @@
-let school = {
-  name: "이강호",
-  schoolNumber: 2212,
-  major: "itContent",
-  age: 18
-}
+let arr = [1,2,3,4,5,6];
+arr.push(10,12);
+console.log(arr.pop());
 
-let info = Object.keys(school)
-for (let i = 0; i < info.length; i++) {
-  console.log(info[i]);
-}
-for (let i of info) {
-  console.log(i);
-}
+let arr1 = arr.slice(0,3);
+console.log(arr1);
+let arr2 = [20,30];
+let num = arr2.concat(arr1);
+console.log(num);
+
