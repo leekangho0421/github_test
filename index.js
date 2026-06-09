@@ -1,10 +1,4 @@
-function add(a, b) {
-    console.log(a+b);    
-}
+let date = new Date('2009-04-21');
 
-function odd(a, b) {
-    console.log(a+b+b);    
-}
-
-add(1,3);
-odd(1,12);
+let year = date.getMonth();
+console.log(year+1);
